@@ -14,6 +14,9 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.Map;
 
+/**
+ * 登陆失败处理类
+ */
 @Component
 public class HandlerLoginFail extends SimpleUrlAuthenticationFailureHandler {
     @Autowired

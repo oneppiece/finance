@@ -9,7 +9,7 @@ import javax.servlet.http.HttpServletRequest;
 import java.util.HashSet;
 import java.util.Set;
 
-@Component("accountRbacService")
+@Component("rbacService")
 public class AccountRbacServiceImpl implements AccountRbacService {
     private AntPathMatcher antPathMatcher = new AntPathMatcher();
 

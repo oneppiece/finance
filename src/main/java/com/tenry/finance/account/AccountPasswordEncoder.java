@@ -3,6 +3,9 @@ package com.tenry.finance.account;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Component;
 
+/**
+ * 加密解密
+ */
 @Component
 public class AccountPasswordEncoder implements PasswordEncoder {
 

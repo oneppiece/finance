@@ -13,6 +13,9 @@ import org.springframework.stereotype.Component;
 import java.util.Collection;
 import java.util.Objects;
 
+/**
+ * 认证
+ */
 @Component
 public class AccountAuthenticationProvider implements AuthenticationProvider {
 

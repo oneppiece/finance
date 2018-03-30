@@ -13,6 +13,9 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.Map;
 
+/**
+ * 登陆成功处理类
+ */
 @Component
 public class HandlerLoginSuccess extends SavedRequestAwareAuthenticationSuccessHandler {
 

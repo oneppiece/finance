@@ -7,6 +7,7 @@ import java.io.Serializable;
 import java.util.Date;
 
 /**
+ * Entity基类
  * Created by Administrator on 22:01.
  */
 @Getter

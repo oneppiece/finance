@@ -30,7 +30,8 @@ public class AccountServiceImpl implements AccountService {
 
             return userInfo;
 
+        } else {
+            throw new UsernameNotFoundException("用户不存在!");
         }
-        return null;
     }
 }

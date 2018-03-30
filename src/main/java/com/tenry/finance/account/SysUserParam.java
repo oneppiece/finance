@@ -9,6 +9,7 @@ import org.springframework.security.core.userdetails.UserDetails;
 import java.util.Collection;
 
 /**
+ * 用户
  * Created by Administrator on 22:01.
  */
 @Getter

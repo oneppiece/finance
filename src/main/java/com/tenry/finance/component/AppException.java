@@ -4,6 +4,7 @@ import lombok.Getter;
 import org.springframework.stereotype.Component;
 
 /**
+ * 自定义异常
  * Created by Administrator on 22:41.
  */
 @Component
